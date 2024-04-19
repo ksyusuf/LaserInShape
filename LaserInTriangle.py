@@ -14,7 +14,7 @@ BLUE = (0, 0, 255)
 # Top ve çizgi özellikleri
 ball_radius = 1
 ball_speed = 1
-angle = 29.9
+angle = 29.8
 ball_angle = math.radians(90.0-angle)
 ball_x = 400
 
