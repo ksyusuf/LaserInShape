@@ -12,9 +12,10 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 
 # Top ve çizgi özellikleri
-ball_radius = 2
+ball_radius = 1
 ball_speed = 1
-ball_angle = math.radians(64)
+angle = 29.8
+ball_angle = math.radians(90.0-angle)
 ball_x = 400
 
 # Geçmiş konumlar listesi
@@ -132,7 +133,7 @@ while running:
         pygame.draw.circle(screen, RED, (int(pos[0]), int(pos[1])), ball_radius)
 
     pygame.display.flip()
-    clock.tick(1000)
+    clock.tick(10000)
 
 pygame.quit()
 sys.exit()
